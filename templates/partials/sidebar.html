@@ -1,0 +1,16 @@
+<aside class="sidebar">
+  <div class="widget">
+    <h3>About</h3>
+    <p><!-- HALO-PLACEHOLDER: site tagline or about text -->{{ site.description }}</p>
+  </div>
+
+  <div class="widget">
+    <h3>Recent Posts</h3>
+    <ul>
+      <!-- HALO-PLACEHOLDER: loop recent posts -->
+      {{#each recentPosts}}
+      <li><a href="{{ url }}">{{ title }}</a></li>
+      {{/each}}
+    </ul>
+  </div>
+</aside>

@@ -1,0 +1,1 @@
+{"id":"halo-theme-vapor","name":"Vapor (Halo 迁移版)","version":"0.1.0","description":"将原 Hexo 主题迁移为 Halo 主题的起始 manifest。请根据实际需要调整字段与结构。","author":{"name":"Azincc","email":""},"preview":"preview.svg","homepage":"https://github.com/Azincc/halo-theme-vapor","license":"Apache-2.0"}

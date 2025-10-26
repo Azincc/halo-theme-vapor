@@ -1,0 +1,13 @@
+/* Minimal styles for migration skeleton */
+body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; margin:0; color:#333; background:#fff; }
+.container { width: 92%; max-width: 980px; margin: 0 auto; padding: 1rem; }
+.site-header, .site-footer { background:#f7f7f7; padding: 0.5rem 0; }
+.post { padding: 1rem 0; border-bottom: 1px solid #eee; }
+.post-title { margin: 0 0 0.5rem 0; }
+.sidebar { background:#fafafa; padding: 1rem; margin-top:1rem; border:1px solid #eee; }
+@media(min-width:900px){
+  main#main { display:flex; gap:1rem; }
+  main#main .container { display:block; }
+  .post-list { flex: 1 1 60%; }
+  .sidebar { flex: 1 1 30%; }
+}
